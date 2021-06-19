@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title> </title>
+
+    <script type="text/javascript">
+        var count = 0;
+        function myfunction(){
+            var x;
+            if(x==1){
+                count=count+1;
+            }
+            if(count==1){
+                document.getElementById("change").style.background="red"
+            }
+        }   
+
+    </script>
+
+</head>
+<body>
+        <button id="change" onclick="myfunction(1)" type="button" class="btn btn-danger">Red</button>
+        <button id="change" onclick="myfunction(1)" type="button" class="btn btn-success">Green</button>
+        <button id="change" onclick="myfunction(1)" type="button" class="btn btn-warning">Yellow</button>
+</body>
+</html>
